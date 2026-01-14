@@ -6,6 +6,9 @@ import upload from 'express-fileupload';
 import PATH from 'path';
 
 let app=express()
+heloo 
+heloo 
+heloo 
 app.use(cors());
 app.use(upload());
 app.use(express.json())
@@ -14,4 +17,5 @@ app.use(express.static(PATH.resolve()+"/assets"));
 app.use(Allroute)
 app.listen(port,()=>{
     console.log("server running port",port)
+   
 })
